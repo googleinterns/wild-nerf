@@ -1,0 +1,11 @@
+pose_noise_rot: 0
+pose_noise_trans: 0
+barf_steps: 5000
+tags: learn_delta_intrinsics
+cam_noise_focal: 50
+cam_noise_center: 50
+train_matplotlib: true
+render_every: 100
+print_every: 100
+chunk: 1024
+save_every: 25000

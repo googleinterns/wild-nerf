@@ -1,0 +1,7 @@
+# noise level (E=0.1,focal=10,center=10), no learning
+pose_noise_rot: 0.1
+pose_noise_trans: 0.02
+cam_noise_focal: 10
+cam_noise_center: 10
+barf_steps: 0
+# tags: learn_delta_focal, learn_delta_center, focal_noise_same_aspect, focal_optim_same_aspect, learn_delta_extrinsics

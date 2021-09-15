@@ -1,0 +1,13 @@
+# Sanity checking the new implementation.
+# Start without noise, check learned parameters.
+pose_noise_rot: 0
+pose_noise_trans: 0
+barf_steps: 5000
+tags: learn_delta_extrinsics, learn_delta_intrinsics
+cam_noise_focal: 0
+cam_noise_center: 0
+train_matplotlib: true
+render_every: 10
+print_every: 10
+batch_size: 512
+chunk: 1024

@@ -1,0 +1,6 @@
+# Same as 004, except intrinsic noise, and extrinsic noise, jointly optimize all.
+pose_noise_rot: 0.2
+pose_noise_trans: 0.1
+cam_noise_focal: 50
+cam_noise_center: 10
+tags: learn_delta_focal, learn_delta_center, focal_noise_same_aspect, focal_optim_same_aspect, learn_delta_extrinsics

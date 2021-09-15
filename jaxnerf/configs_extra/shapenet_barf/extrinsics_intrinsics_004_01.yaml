@@ -1,0 +1,4 @@
+# Same as 004 (overwrite on top of 004), except intrinsic noise fx=fy=50*randn.
+cam_noise_focal: 50
+cam_noise_center: 0
+tags: learn_delta_focal, focal_noise_same_aspect, focal_optim_same_aspect

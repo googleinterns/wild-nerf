@@ -1,0 +1,8 @@
+# Same as 004, add noise, do not learn
+pose_noise_rot: 0.1
+pose_noise_trans: 0.02
+cam_noise_focal: 0
+cam_noise_center: 0
+barf_steps: 0
+tags:
+render_steps_list: 300, 600

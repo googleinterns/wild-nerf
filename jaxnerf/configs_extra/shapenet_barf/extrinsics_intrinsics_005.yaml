@@ -1,0 +1,17 @@
+pose_noise_rot: 0
+pose_noise_trans: 0
+cam_noise_focal: 0
+cam_noise_center: 0
+barf_steps: 0
+tags:
+
+# trainer config
+train_matplotlib: true
+eval_matplotlib: true
+render_steps_list: 300, 600
+render_every: 1200
+print_every: 100
+chunk: 1024
+save_every: 10000
+deterministic_rendering: true
+max_steps: 60000

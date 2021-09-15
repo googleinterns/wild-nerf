@@ -1,0 +1,7 @@
+# Same as 004, optimize extrinsics only from noisy init
+pose_noise_rot: 0.3
+pose_noise_trans: 0.1
+barf_steps: 2000
+cam_noise_focal: 0
+cam_noise_center: 0
+tags: learn_delta_extrinsics

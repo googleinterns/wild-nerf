@@ -1,0 +1,9 @@
+# Same as 004 (overwrite on top of 004), except intrinsic noise fx=fy=50*randn.
+# Add noise but do not learn.
+pose_noise_rot: 0
+pose_noise_trans: 0
+cam_noise_focal: 50
+cam_noise_center: 0
+barf_steps: 8000
+batch_size: 8192
+tags:

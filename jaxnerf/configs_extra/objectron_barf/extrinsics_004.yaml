@@ -1,0 +1,9 @@
+num_train_cameras: 239
+pose_noise_rot: 0.0
+pose_noise_trans: 0.0
+barf_steps: 3000
+tags: learn_delta_extrinsics
+eval_on_train: true
+gc_every: 0
+lindisp: True
+max_steps: 250000

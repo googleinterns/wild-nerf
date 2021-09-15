@@ -1,0 +1,4 @@
+pose_noise_rot: 0.1
+pose_noise_trans: 0.01
+barf_steps: 5000
+tags: learn_delta_extrinsics

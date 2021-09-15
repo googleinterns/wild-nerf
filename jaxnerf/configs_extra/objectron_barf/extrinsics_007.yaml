@@ -1,0 +1,7 @@
+num_train_cameras: 239
+eval_on_train: true
+gc_every: 0
+lindisp: True
+max_steps: 500000
+lr_init: 2.0e-3
+lr_final: 2.0e-8
